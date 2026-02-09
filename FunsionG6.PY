@@ -13,3 +13,21 @@ entrada = input("Ingrese números separados por espacio: ")
 lista_numeros = list(map(int, entrada.split()))
 resultado = obtener_negativos(lista_numeros)
 print("freinanyelis gomez - Resultado de la función:", resultado)
+
+#Lista-positivo
+#*********************************
+#** Desarrollado por: John Miró  **
+
+#*****************************************
+def numeros_positivos(lista):
+    positivos = []
+    for num in lista:
+        if num > 0:
+            positivos.append(num)
+    return positivos
+
+
+# Ejemplo de uso
+numeros = [-3, 5, -1, 0, 7, 2]
+resultado = numeros_positivos(numeros)
+print("Números positivos:", resultado)
