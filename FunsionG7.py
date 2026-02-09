@@ -8,3 +8,17 @@ def convertir_mayusculas(cadena):
 texto = input("Ingrese una cadena de texto: ")
 resultado = convertir_mayusculas(texto)
 print("freinanyelis gomez- Resultado de la función:", resultado)
+
+#Lista-minusc
+#*********************************
+#** Desarrollado por: John Miró  **
+
+#*****************************************
+def a_minuscula(cadena):
+    return cadena.lower()
+
+
+# Ejemplo de uso
+texto = input("Ingrese una cadena de texto: ")
+resultado = a_minuscula(texto)
+print("Texto en minúscula:", resultado)
